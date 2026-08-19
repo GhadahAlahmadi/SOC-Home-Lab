@@ -34,7 +34,7 @@ An RDP brute-force attack was simulated from Kali Linux, followed by log analysi
 
 ![RDP Brute Force](bruteforcebyhydra.PNG)
 
-![Splunk Detection](detectbySplunk.PNG)
+![Splunk Detection](detectbysplunl.PNG)
 
 ### Exploitation – Metasploit
 
