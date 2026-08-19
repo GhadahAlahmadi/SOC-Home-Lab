@@ -8,8 +8,6 @@ The lab focuses on security monitoring, log analysis, IOC identification, event 
 
 ## Lab Architecture
 
-## Lab Architecture
-
 ![SOC Home Lab Architecture](home_lab_siem_flow_v2.png)
 
 Kali Linux → Windows 10 → Splunk Universal Forwarder → Ubuntu Server / Splunk Enterprise
