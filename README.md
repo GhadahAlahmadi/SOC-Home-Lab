@@ -28,15 +28,21 @@ Kali Linux → Windows 10 → Splunk Universal Forwarder → Ubuntu Server / Spl
 - Sysmon Event ID 3 analysis
 - Network connection investigation
 
-### Initial Access
-- RDP Brute Force simulation
-- Windows Event ID 4625 analysis
-- Failed authentication investigation
+### Initial Access – RDP Brute Force
 
-### Exploitation
-- Metasploit-based exploitation simulation
-- Process and network telemetry analysis
-- Investigation of suspicious connections
+An RDP brute-force attack was simulated from Kali Linux, followed by log analysis in Splunk.
+
+![RDP Brute Force](bruteforcebyhydra.PNG)
+
+![Splunk Detection](detectbySplunk.PNG)
+
+### Exploitation – Metasploit
+
+Metasploit was used to simulate exploitation in the isolated lab environment. The resulting process and network activity were investigated in Splunk.
+
+![Metasploit Session](backdoor.PNG)
+
+![Splunk Investigation](splunk.PNG)
 
 ### Persistence
 - Registry Run Key persistence
